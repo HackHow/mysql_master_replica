@@ -10,7 +10,7 @@ sudo yum install https://dev.mysql.com/get/mysql80-community-release-el7-6.noarc
 sudo yum repolist
 
 ## if check GPG-KEY fail, execute the command
-rpm --import https://repo.mysql.com/RPM-GPG-KEY-mysql-2022 
+sudo rpm --import https://repo.mysql.com/RPM-GPG-KEY-mysql-2022 
 sudo yum install mysql-community-server
 
 ## start automatically at the next system restart
