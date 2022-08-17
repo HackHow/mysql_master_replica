@@ -77,8 +77,8 @@ $ sudo vim /etc/my.cnf
 add three settings in my.cnf
 
 ```text
-bind-address = 172.31.26.19
-server-id = 1
+bind-address = 172.31.23.235
+server-id = 2
 log_bin = mysql-bin
 ```
 
