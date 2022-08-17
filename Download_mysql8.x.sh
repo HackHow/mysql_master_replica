@@ -14,10 +14,10 @@ sudo rpm --import https://repo.mysql.com/RPM-GPG-KEY-mysql-2022
 sudo yum install mysql-community-server
 
 ## start automatically at the next system restart
-systemctl enable mysqld
+sudo systemctl enable mysqld
 
 ## start up mysql
-systemctl start mysqld
+sudo systemctl start mysqld
 
 ## print mysql temporary passwod
 sudo grep 'temporary password' /var/log/mysqld.log
